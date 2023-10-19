@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chess</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+    <div class="container">
+        <div class="num">
+            <h1>1</h1><h1>2</h1><h1>3</h1><h1>4</h1><h1>5</h1
+            ><h1>6</h1><h1>7</h1><h1>8</h1>
+        </div>
+        <div>
+            <div class="alph">
+                <h1>a</h1><h1>b</h1><h1>c</h1><h1>d</h1><h1>e</h1
+                ><h1>f</h1><h1>g</h1><h1>h</h1>
+            </div>
+            <div class="board">
+              <div class="white"><i class="fa-solid fa-chess-rook fa-shake fa-2xl" style="color: #000000;"></i></div>
+              <div class="black"><i class="fa-solid fa-chess-knight fa-shake fa-2xl" style="color: #000000;"></i></div>
+              <div class="white"><i class="fa-solid fa-chess-bishop fa-shake fa-2xl" style="color: #000000;"></i></div>
+              <div class="black"><i class="fa-solid fa-chess-queen fa-shake fa-2xl" style="color: #000000;"></i></div>
+              <div class="white"><i class="fa-solid fa-chess-king fa-shake fa-2xl" style="color: #000000;"></i></div>
+              <div class="black"><i class="fa-solid fa-chess-bishop fa-shake fa-2xl" style="color: #000000;"></i></div>
+              <div class="white"><i class="fa-solid fa-chess-knight fa-shake fa-2xl" style="color: #000000;"></i></div>
+              <div class="black"><i class="fa-solid fa-chess-rook fa-shake fa-2xl" style="color: #000000;"></i></div>
+
+              <div class="black"><i class="fa-solid fa-chess-pawn fa-bounce fa-2xl" style="color: #000;" class="black_pawn"></i></div>
+              <div class="white"><i class="fa-solid fa-chess-pawn fa-bounce fa-2xl" style="color: #000;" class="black_pawn"></i></div>
+              <div class="black"><i class="fa-solid fa-chess-pawn fa-bounce fa-2xl" style="color: #000;" class="black_pawn"></i></div>
+              <div class="white"><i class="fa-solid fa-chess-pawn fa-bounce fa-2xl" style="color: #000;" class="black_pawn"></i></div>
+              <div class="black"><i class="fa-solid fa-chess-pawn fa-bounce fa-2xl" style="color: #000;" class="black_pawn"></i></div>
+              <div class="white"><i class="fa-solid fa-chess-pawn fa-bounce fa-2xl" style="color: #000;" class="black_pawn"></i></div>
+              <div class="black"><i class="fa-solid fa-chess-pawn fa-bounce fa-2xl" style="color: #000;" class="black_pawn"></i></div>
+              <div class="white"><i class="fa-solid fa-chess-pawn fa-bounce fa-2xl" style="color: #000;" class="black_pawn"></i></div>
+
+              <div class="white"></div>
+              <div class="black"></div>
+              <div class="white"></div>
+              <div class="black"></div>
+              <div class="white"></div>
+              <div class="black"></div>
+              <div class="white"></div>
+              <div class="black"></div>
+
+              <div class="black"></div>
+              <div class="white"></div>
+              <div class="black"></div>
+              <div class="white"></div>
+              <div class="black"></div>
+              <div class="white"></div>
+              <div class="black"></div>
+              <div class="white"></div>
+
+              <div class="white"></div>
+              <div class="black"></div>
+              <div class="white"></div>
+              <div class="black"></div>
+              <div class="white"></div>
+              <div class="black"></div>
+              <div class="white"></div>
+              <div class="black"></div>
+
+              <div class="black"></div>
+              <div class="white"></div>
+              <div class="black"></div>
+              <div class="white"></div>
+              <div class="black"></div>
+              <div class="white"></div>
+              <div class="black"></div>
+              <div class="white"></div>
+
+              <div class="white"><i class="fa-solid fa-chess-pawn fa-bounce fa-2xl" style="color: #f20707;"></i></div>
+              <div class="black"><i class="fa-solid fa-chess-pawn fa-bounce fa-2xl" style="color: #f20707;"></i></div>
+              <div class="white"><i class="fa-solid fa-chess-pawn fa-bounce fa-2xl" style="color: #f20707;"></i></div>
+              <div class="black"><i class="fa-solid fa-chess-pawn fa-bounce fa-2xl" style="color: #f20707;"></i></div>
+              <div class="white"><i class="fa-solid fa-chess-pawn fa-bounce fa-2xl" style="color: #f20707;"></i></div>
+              <div class="black"><i class="fa-solid fa-chess-pawn fa-bounce fa-2xl" style="color: #f20707;"></i></div>
+              <div class="white"><i class="fa-solid fa-chess-pawn fa-bounce fa-2xl" style="color: #f20707;"></i></div>
+              <div class="black"><i class="fa-solid fa-chess-pawn fa-bounce fa-2xl" style="color: #f20707;"></i></div>
+
+              <div class="black"><i class="fa-solid fa-chess-rook fa-shake fa-2xl" style="color: #f20707;"></i></div>
+              <div class="white"><i class="fa-solid fa-chess-knight fa-shake fa-2xl" style="color: #f20707;"></i></div>
+              <div class="black"><i class="fa-solid fa-chess-bishop fa-shake fa-2xl" style="color: #f20707;"></i></div>
+              <div class="white"><i class="fa-solid fa-chess-queen fa-shake fa-2xl" style="color: #f90707;"></i></div>
+              <div class="black"><i class="fa-solid fa-chess-king fa-shake fa-2xl" style="color: #f20707;"></i></div>
+              <div class="white"><i class="fa-solid fa-chess-bishop fa-shake fa-2xl" style="color: #f20707;"></i></div>
+              <div class="black"><i class="fa-solid fa-chess-knight fa-shake fa-2xl" style="color: #f20707;"></i></div>
+              <div class="white"><i class="fa-solid fa-chess-rook fa-shake fa-2xl" style="color: #f20707;"></i></div>
+            </div>
+                  <div class="alph">
+                    <h1>a</h1><h1>b</h1><h1>c</h1><h1>d</h1><h1>e</h1
+                    ><h1>f</h1><h1>g</h1><h1>h</h1>
+                  </div>
+        </div>
+        <div class="num">
+            <h1>1</h1><h1>2</h1><h1>3</h1><h1>4</h1><h1>5</h1
+            ><h1>6</h1><h1>7</h1><h1>8</h1>
+        </div>
+      </div>
+  </body>
+</html>
